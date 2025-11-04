@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface GameSessionRepository extends JpaRepository<GameSession, Integer> {
-    // Có thể thêm phương thức tìm kiếm tùy chọn ở đây nếu cần
+    
 }
