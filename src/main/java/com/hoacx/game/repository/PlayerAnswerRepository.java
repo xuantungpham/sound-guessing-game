@@ -10,7 +10,6 @@ import java.util.List;
 @Repository
 public interface PlayerAnswerRepository extends JpaRepository<PlayerAnswer, Integer> {
 
-    // ✅ Thêm method này để fix lỗi:
     List<PlayerAnswer> findBySession(GameSession session);
 
 }
