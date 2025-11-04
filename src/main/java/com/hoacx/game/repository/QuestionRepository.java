@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface QuestionRepository extends JpaRepository<Question, Integer> {
-    // Bạn có thể thêm phương thức truy vấn tùy chọn ở đây nếu cần
+    
 }
