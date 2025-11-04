@@ -51,7 +51,7 @@ public class MulticlientSimulator {
                     };
 
                     client.connectBlocking();
-                    Thread.sleep(20000); // Runtime per client
+                    Thread.sleep(20000); 
 
                     client.close();
 
