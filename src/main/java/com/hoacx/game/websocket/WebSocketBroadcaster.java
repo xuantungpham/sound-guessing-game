@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 @Component
 public class WebSocketBroadcaster {
 
-    // Lưu tất cả session của người chơi theo sessionCode
     private final Map<String, Map<String, WebSocketSession>> sessions = new ConcurrentHashMap<>();
 
     public void registerSession(String sessionCode, WebSocketSession session) {
